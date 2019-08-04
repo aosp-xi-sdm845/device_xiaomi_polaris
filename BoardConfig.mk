@@ -12,6 +12,9 @@ DEVICE_PATH := device/xiaomi/polaris
 # Assert
 TARGET_OTA_ASSERT_DEVICE := polaris
 
+# Display
+TARGET_USES_DRM_PP := true
+
 # Kernel
 TARGET_KERNEL_CONFIG := polaris_defconfig
 
